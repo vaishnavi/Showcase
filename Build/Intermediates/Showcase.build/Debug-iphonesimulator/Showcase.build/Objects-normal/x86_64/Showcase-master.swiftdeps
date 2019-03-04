@@ -1,0 +1,12 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "ead5c375c9cd23070428e8e10b2f245d"
+build_time: [1551658181, 311024000]
+inputs:
+  "/Users/vaishnavi/Documents/Vaishnavi/Projects/Showcase/Showcase/Views/CustomTableViewCell.swift": [1551317401, 0]
+  "/Users/vaishnavi/Documents/Vaishnavi/Projects/Showcase/Showcase/Service/Service.swift": [1551326325, 0]
+  "/Users/vaishnavi/Documents/Vaishnavi/Projects/Showcase/Showcase/ViewController/ViewController.swift": [1551317696, 0]
+  "/Users/vaishnavi/Documents/Vaishnavi/Projects/Showcase/Showcase/Utils/UIView+Utils.swift": [1551317664, 0]
+  "/Users/vaishnavi/Documents/Vaishnavi/Projects/Showcase/Showcase/Models/Items.swift": [1551317737, 0]
+  "/Users/vaishnavi/Documents/Vaishnavi/Projects/Showcase/Showcase/Network/Network.swift": [1551324381, 0]
+  "/Users/vaishnavi/Documents/Vaishnavi/Projects/Showcase/Showcase/AppDelegate.swift": [1549943325, 0]
+  "/Users/vaishnavi/Documents/Vaishnavi/Projects/Showcase/Showcase/Manager/Manager.swift": [1551317852, 0]
