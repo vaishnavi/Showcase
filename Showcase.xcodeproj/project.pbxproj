@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F622B426222D2DDD00A772AF /* ManagerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F622B425222D2DDD00A772AF /* ManagerTest.swift */; };
 		F69EC4C0222771BA000C5513 /* UIView+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69EC4BF222771BA000C5513 /* UIView+Utils.swift */; };
 		F69EC4C222278DD1000C5513 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69EC4C122278DD1000C5513 /* Service.swift */; };
 		F6BC592A2224D36A00851262 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BC59292224D36A00851262 /* Manager.swift */; };
-		F6BC592C2224D3C000851262 /* Items.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BC592B2224D3C000851262 /* Items.swift */; };
+		F6BC592C2224D3C000851262 /* Names.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BC592B2224D3C000851262 /* Names.swift */; };
 		F6BC592F2225003F00851262 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6BC592E2225003F00851262 /* CustomTableViewCell.xib */; };
 		F6BC59312225006D00851262 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6BC59302225006D00851262 /* CustomTableViewCell.swift */; };
 		F6D0CD962212799D00EF1B99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D0CD952212799D00EF1B99 /* AppDelegate.swift */; };
@@ -41,10 +42,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F622B425222D2DDD00A772AF /* ManagerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerTest.swift; sourceTree = "<group>"; };
 		F69EC4BF222771BA000C5513 /* UIView+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Utils.swift"; sourceTree = "<group>"; };
 		F69EC4C122278DD1000C5513 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		F6BC59292224D36A00851262 /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
-		F6BC592B2224D3C000851262 /* Items.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Items.swift; sourceTree = "<group>"; };
+		F6BC592B2224D3C000851262 /* Names.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Names.swift; sourceTree = "<group>"; };
 		F6BC592E2225003F00851262 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
 		F6BC59302225006D00851262 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		F6D0CD922212799D00EF1B99 /* Showcase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Showcase.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -149,6 +151,7 @@
 			children = (
 				F6D0CDAA221279A400EF1B99 /* ShowcaseTests.swift */,
 				F6D0CDAC221279A400EF1B99 /* Info.plist */,
+				F622B425222D2DDD00A772AF /* ManagerTest.swift */,
 			);
 			path = ShowcaseTests;
 			sourceTree = "<group>";
@@ -181,7 +184,7 @@
 		F6D0CDC522127E5500EF1B99 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				F6BC592B2224D3C000851262 /* Items.swift */,
+				F6BC592B2224D3C000851262 /* Names.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -338,7 +341,7 @@
 				F69EC4C222278DD1000C5513 /* Service.swift in Sources */,
 				F6D0CD982212799D00EF1B99 /* ViewController.swift in Sources */,
 				F69EC4C0222771BA000C5513 /* UIView+Utils.swift in Sources */,
-				F6BC592C2224D3C000851262 /* Items.swift in Sources */,
+				F6BC592C2224D3C000851262 /* Names.swift in Sources */,
 				F6D0CDC92212826600EF1B99 /* Network.swift in Sources */,
 				F6D0CD962212799D00EF1B99 /* AppDelegate.swift in Sources */,
 				F6BC592A2224D36A00851262 /* Manager.swift in Sources */,
@@ -350,6 +353,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6D0CDAB221279A400EF1B99 /* ShowcaseTests.swift in Sources */,
+				F622B426222D2DDD00A772AF /* ManagerTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

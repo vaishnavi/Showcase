@@ -9,10 +9,15 @@
 import Foundation
 
 typealias Result = (Data, String) -> Void
+
 class Service {
     
+    private enum Constants {
+        static let url = "https://jsonplaceholder.typicode.com/users"
+    }
+
     private var serviceURL: URL? {
-        let endpointURL = "https://jsonplaceholder.typicode.com/todos/1"
+        let endpointURL = Constants.url
         return URL(string: endpointURL)
     }
     

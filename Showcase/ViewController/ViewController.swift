@@ -11,19 +11,26 @@ import UIKit
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     @IBOutlet weak var tableView: UITableView!
-    var items = [Items]()
+    var namesArray = [Names]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         fetchTableListItems()
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 
     private func fetchTableListItems() {
-        Manager.shared.tableList { itemList in
-            if let list = itemList {
-                self.items = list
-            }
+        Manager.shared.getList { names in
+            guard let namesList = names else { return }
+            self.namesArray = namesList
+            self.refreshTableData()
+        }
+    }
+
+    private func refreshTableData(){
+        if namesArray.count > 0 {
+            tableView.reloadData()
         }
     }
     
@@ -37,13 +44,12 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return items.count
+        return namesArray.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let cell = CustomTableViewCell.fromNib()  else { return  UITableViewCell() }
-        cell.configure(forItem: items[indexPath.row])
-        //cell.textLabel?.text = items[indexPath.row].title
+        cell.configure(forItem: namesArray[indexPath.row])
         return cell
     }
 
